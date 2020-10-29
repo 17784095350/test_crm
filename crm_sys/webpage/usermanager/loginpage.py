@@ -3,11 +3,11 @@ import time
 sys.path.append('E:\.jenkins\workspace\crm')
 from selenium.webdriver.common.alert import Alert
 from selenium import webdriver
-from cry_sys.config.log_crm import Autolog
-from cry_sys.util.excel_operation import OperationExcel
-from cry_sys.base.browseroperation import BrowserOperation
-from cry_sys.base.usebrowser import UseBrowser
-from cry_sys.util.yaml_opertion import YamlOperation
+from crm_sys.config.log_crm import Autolog
+from crm_sys.util.excel_operation import OperationExcel
+from crm_sys.base.browseroperation import BrowserOperation
+from crm_sys.base.usebrowser import UseBrowser
+from crm_sys.util.yaml_opertion import YamlOperation
 
 
 

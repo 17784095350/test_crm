@@ -5,11 +5,11 @@ import sys
 sys.path.append('E:\.jenkins\workspace\crm')
 from HTMLTestRunner import HTMLTestRunner
 
-from cry_sys.config.log_crm import Autolog
-from cry_sys.util.excel_operation import OperationExcel
-from cry_sys.base.browseroperation import BrowserOperation
-from cry_sys.base.usebrowser import UseBrowser
-from cry_sys.webpage.usermanager.loginpage import LoginPage
+from crm_sys.config.log_crm import Autolog
+from crm_sys.util.excel_operation import OperationExcel
+from crm_sys.base.browseroperation import BrowserOperation
+from crm_sys.base.usebrowser import UseBrowser
+from crm_sys.webpage.usermanager.loginpage import LoginPage
 
 
 class LoginTest(unittest.TestCase):

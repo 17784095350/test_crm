@@ -4,11 +4,11 @@ import sys
 sys.path.append('E:\.jenkins\workspace\crm')
 from selenium.webdriver.common.alert import Alert
 
-from cry_sys.base.usebrowser import UseBrowser
-from cry_sys.config.log_crm import Autolog
-from cry_sys.db.customerdb.customeroperdb import CustomerOperdb
-from cry_sys.util.excel_operation import OperationExcel
-from cry_sys.webpage.usermanager.loginpage import LoginPage
+from crm_sys.base.usebrowser import UseBrowser
+from crm_sys.config.log_crm import Autolog
+from crm_sys.db.customerdb.customeroperdb import CustomerOperdb
+from crm_sys.util.excel_operation import OperationExcel
+from crm_sys.webpage.usermanager.loginpage import LoginPage
 
 
 class CustomerPage:

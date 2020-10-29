@@ -1,13 +1,14 @@
 import time
 import unittest
-from HTMLTestRunner import HTMLTestRunner
+
 import sys
 
 sys.path.append('E:\.jenkins\workspace\crm')
-from cry_sys.base.usebrowser import UseBrowser
-from cry_sys.config.log_crm import Autolog
-from cry_sys.util.excel_operation import OperationExcel
-from cry_sys.webpage.customermanager.customerpage import CustomerPage
+from HTMLTestRunner import HTMLTestRunner
+from crm_sys.base.usebrowser import UseBrowser
+from crm_sys.config.log_crm import Autolog
+from crm_sys.util.excel_operation import OperationExcel
+from crm_sys.webpage.customermanager.customerpage import CustomerPage
 
 
 class CustomerTest(unittest.TestCase):

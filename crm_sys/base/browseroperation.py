@@ -1,6 +1,6 @@
 
 # from selenium import webdriver
-from cry_sys.base.usebrowser import UseBrowser
+from crm_sys.base.usebrowser import UseBrowser
 
 
 class BrowserOperation:

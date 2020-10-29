@@ -1,0 +1,17 @@
+LoginPage:
+  username: /html/body/form/table/tbody/tr/td/table/tbody/tr[2]/td/table/tbody/tr/td[2]/table/tbody/tr[1]/td[2]/div/input
+  password: /html/body/form/table/tbody/tr/td/table/tbody/tr[2]/td/table/tbody/tr/td[2]/table/tbody/tr[2]/td[2]/div/input
+  clicklogin: //*[@id="in1"]
+  succes: /html/body/form/table/tbody/tr[2]/td/table/tbody/tr/td[1]/table/tbody/tr/td[2]/div
+CustomerPage:
+  frametopFrame: topFrame
+  mainframe: mainFrame
+  clickmation: /html/body/form/table/tbody/tr[2]/td/table/tbody/tr/td[2]/table/tbody/tr/td[5]/table/tbody/tr/td/div/a
+  clickadd: /html/body/form/table/tbody/tr[1]/td/table/tbody/tr/td[2]/table/tbody/tr/td[4]/input
+  customername: /html/body/form/table[1]/tbody/tr[2]/td[2]/input
+  customeraddman: /html/body/form/table[1]/tbody/tr[8]/td[2]/input
+  customeremail: /html/body/form/table[1]/tbody/tr[4]/td[4]/input
+  clicksubmit: /html/body/form/table[2]/tbody/tr/td[2]/input
+  upcustmoer: /html/body/form/table/tbody/tr[2]/td/table/tbody/tr/td[2]/table/tbody/tr[2]/td[13]/div/span/a[1]
+  customermobile: /html/body/form/table[1]/tbody/tr[5]/td[4]/input
+  loginsucess: /html/body/form/table/tbody/tr[2]/td/table/tbody/tr/td[1]/table/tbody/tr/td[2]/div
